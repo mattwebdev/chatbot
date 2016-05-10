@@ -1,0 +1,30 @@
+{
+  "name": "wit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "chatbot.js",
+  "scripts": {
+    "test": "testbot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattwebdev/chatbot.git"
+  },
+  "keywords": [
+    "wit"
+  ],
+  "author": "mattwebdev",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/mattwebdev/chatbot/issues"
+  },
+  "homepage": "https://github.com/mattwebdev/chatbot#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "node-fetch": "^1.5.2",
+    "node-uuid": "^1.4.7",
+    "node-wit": "^3.3.0",
+    "request": "^2.72.0"
+  }
+}
